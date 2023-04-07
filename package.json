@@ -1,0 +1,33 @@
+{
+  "name": "nginx-proxy-manager",
+  "version": "1.0.0",
+  "description": "a small package to interact with the popular reverse proxy software https://nginxproxymanager.com/",
+  "main": "dist/index.js",
+  "types": "types",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404invalid-user/nginx-proxy-manager.git"
+  },
+  "keywords": [
+    "npm",
+    "nginx",
+    "nginx-proxy-manager"
+  ],
+  "author": "404invalid-user",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/404invalid-user/nginx-proxy-manager/issues"
+  },
+  "homepage": "https://github.com/404invalid-user/nginx-proxy-manager#readme",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
